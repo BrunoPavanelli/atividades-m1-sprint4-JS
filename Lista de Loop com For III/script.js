@@ -1,15 +1,15 @@
 //ex 1 Sequencia Fibonacci
-// function Fibonacci() {
-//     anterior = 0
-//     atual = 1
-//     for (let f = 1; f <= 15; f++) {
-//         proximo = anterior + atual
-//         anterior = atual
-//         atual = proximo
-//         console.log(`${anterior}`)
-//     }
-// }
-// Fibonacci()
+function Fibonacci() {
+    anterior = 0
+    atual = 1
+    for (let f = 1; f <= 15; f++) {
+        proximo = anterior + atual
+        anterior = atual
+        atual = proximo
+        console.log(`${anterior}`)
+    }
+}
+Fibonacci()
 
 //ex 2 
 function contaGraos() {
