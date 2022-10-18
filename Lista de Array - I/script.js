@@ -21,3 +21,18 @@
 //     } 
 // }
 // recebeNumero(5)
+
+// //ex 3
+// let arrNumbers = [1,2,3,4,5,6,7,8,9,10]
+// function recebeInteiro(numero) {
+//     let positionArr = arrNumbers[numero]
+//     if (positionArr % 2 === 0) {
+//         alert(`O valor nesta posição é par`)
+//         return (`O valor nesta posição é par`)
+//     } else {
+//         alert(`O valor nesta posição é ímpar`)
+//         return (`O valor nesta posição é ímpar`)
+//     }
+// }
+// recebeInteiro(9)
+
