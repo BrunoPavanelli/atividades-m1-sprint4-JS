@@ -36,16 +36,24 @@
 // }
 // recebeInteiro(9)
 
-//ex 4
-let nomes = ["12", "123", "123456789", '12345','12345678', '123456', '1234567'] 
-function recebeLista(lista) {
-    maiorNome = ''
-    for (i = 0; i < lista.length; i++) {
-        nomeAtual = lista[i]
-        if (nomeAtual.length > maiorNome.length) {
-            maiorNome = nomeAtual
-        }
-    }
-    console.log(maiorNome)
+// //ex 4
+// let nomes = ["12", "123", "123456789", '12345','12345678', '123456', '1234567'] 
+// function recebeLista(lista) {
+//     maiorNome = ''
+//     for (i = 0; i < lista.length; i++) {
+//         nomeAtual = lista[i]
+//         if (nomeAtual.length > maiorNome.length) {
+//             maiorNome = nomeAtual
+//         }
+//     }
+//     console.log(maiorNome)
+// }
+// recebeLista(nomes)
+
+//ex 5
+let numeros = [1,4,6,9,11,8]
+function recebeValores(lista){
+    let n1 = lista.length
+    console.log(n1)
 }
-recebeLista(nomes)
+recebeValores(numeros)
