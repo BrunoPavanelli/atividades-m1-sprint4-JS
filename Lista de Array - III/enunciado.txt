@@ -1,0 +1,26 @@
+    1. Escreva uma função que consiga inserir novos elementos a uma lista. A lista, pode armazenar no máximo 10 elementos.
+
+    Elementos de qualquer tipo que seja string com mais de 7 caracteres, não são permitidos.
+
+    Em caso de sucesso, retorne: "Elemento inserido com sucesso, a lista agora é: x"
+    onde x é lista atualizada.
+
+    Em caso de falha, retorne: "Não foi possível inserir este valor"
+    
+    2. Escreva uma função que recebe como parâmetro uma lista A.
+    A lista A, deve ter no mínimo 8 elementos inseridos e não pode haver mais de 8 elementos também.
+
+    Crie uma lista B de mesma dimensão com os elementos da matriz A multiplicados por 3.
+
+    O elemento B[1] deve ser implicado pelo elemento A[1] * 3, o elemento B[2] implicado pelo elemento A[2] * 3 e assim por diante, até 8.
+
+    Retorne a lista B resultante.
+
+
+    3. Escreva uma função que recebe uma lista A como parâmetro. A lista A deve ter exatamente 15 elementos inteiros de uma matriz.
+
+    Criar uma matriz B de mesmo tipo, observando a seguinte lei de formação:
+
+    "Todo elemento da matriz B deve ser o quadrado do elemento da matriz A correspondente".
+
+    Retorne a lista B resultante. 
