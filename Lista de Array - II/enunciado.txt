@@ -2,7 +2,7 @@ Todos exercícios a seguir são baseados na lista a seguir:
 
 const listaDeElementos = [1,5,7,9,3, "10", "11", "15"]
 
-Escreva uma função chamada inserirNovoElemento que recebe um valor de 1 a 10 como argumento, e insira em uma lista.
+1. Escreva uma função chamada inserirNovoElemento que recebe um valor de 1 a 10 como argumento, e insira em uma lista.
 
 O valor recebido deverá ser inserido em um array chamado autput e o array atualizado com o novo valor deverá ser alertado em tela para o usuário.
 
@@ -11,14 +11,14 @@ Desta forma: "A lista atualizada é: x"
 Verifique se o valor recebido está no intervalo de 1 a 10.
 Certifique-se que o valor é um inteiro positivo.
 
-Escreva uma função chamada retornaTodosElementos que não recebe nenhum parâmetro. A função deverá alertar a lista, listaDeElementos em tela, sempre que chamada.
+2. Escreva uma função chamada retornaTodosElementos que não recebe nenhum parâmetro. A função deverá alertar a lista, listaDeElementos em tela, sempre que chamada.
 
-Escreva uma função chamada retornaValorEpecifico. A função deve receber um valor inteiro como parâmetro. Use o valor recebido para acessar a posição na lista. Retorne o valor contido na posição.
+3. Escreva uma função chamada retornaValorEpecifico. A função deve receber um valor inteiro como parâmetro. Use o valor recebido para acessar a posição na lista. Retorne o valor contido na posição.
 
 Desta forma:
 ⁠"O valor contido nesta posição é: x".
 
-Escreva uma função chamada retornarTipoElemento. A função deve receber um valor inteiro como parâmetro.
+4. Escreva uma função chamada retornarTipoElemento. A função deve receber um valor inteiro como parâmetro.
 
 Use o valor recebido para acessar a posição na lista. Alerte qual o tipo(Use o typeof) do elemento contido na posição.
 
@@ -27,24 +27,24 @@ Use o valor recebido para acessar a posição na lista. Alerte qual o tipo(Use o
 Se for do tipo texto alerte: "O elemento x, é um elemento do tipo texto",
 Se for número alerte: "O elemento x, é um elemento do tipo número"
 
-Escreva uma função chamada removerElemento. A função deve receber um valor inteiro como parâmetro.
+5. Escreva uma função chamada removerElemento. A função deve receber um valor inteiro como parâmetro.
 
 O valor recebido representa a posição do elemento a ser deletado. Retorne a alteração na lista, desta forma:
 
 "O valor x, foi removido da lista, a lista atualizado é: "
 
-Escreva uma função removeUltimoElementoString. A função não recebe parâmetros.
+6. Escreva uma função removeUltimoElementoString. A função não recebe parâmetros.
 Quando chamada, a função deverá remover o último elemento da lista, mas somente se for uma string.
 
 Caso a remoção seja realizada, retorne: "Elemento deletado com sucesso".
 Caso contrário: "Falha ao remover o elemento da lista".
 
-Escreva uma função chamada consultaPosição. A função deve receber um valor como parâmetro. Identifique na lista, qual a posição do elemento.
+7. Escreva uma função chamada consultaPosição. A função deve receber um valor como parâmetro. Identifique na lista, qual a posição do elemento.
 
 Caso consiga identificar o elemento na lista: "O valor procurado está na posiçao: x ".
 ⁠Caso não: "Valor não encontrado".
 
-Escreva uma função chamada removerElementoEspecifico. A função deve receber um valor como parâmetro.
+8. Escreva uma função chamada removerElementoEspecifico. A função deve receber um valor como parâmetro.
 
 O valor recebido representa o elemento a ser deletado. Retorne a seguinte mensagem:
 
@@ -53,11 +53,12 @@ Caso contrário: "Elemento não encontrado".
 
 Busque a posição do elemento na lista(Use o indexOf()). Use a posição encontrada, para realizar a remoção.
 
-Escreva uma função chamada alteraElemento. A função deve receber dois parâmetros. O primeiro parâmetro, representa a posição da lista que a alteração será realizada, o segundo representa o novo valor para a posição.
+9. Escreva uma função chamada alteraElemento. A função deve receber dois parâmetros. O primeiro parâmetro, representa a posição da lista que a alteração será realizada, o segundo representa o novo valor para a posição.
 
 Caso a alteração seja realizada: "Atualização realizada com sucesso".
 Caso contrário: "Erro ao atualizar o elemento".
-Escreva uma função chamada inserirNaPosicaoCorreta. A função pode receber um valor de 0 a 10 ou uma string.
+
+10. Escreva uma função chamada inserirNaPosicaoCorreta. A função pode receber um valor de 0 a 10 ou uma string.
 
 Caso o valor recebido seja do tipo número, a função deve conseguir inserir o elemento na primeira posição da lista, caso seja um texto a inserção deve ser feita na última posição.
 
