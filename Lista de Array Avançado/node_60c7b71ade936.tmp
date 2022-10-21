@@ -1,6 +1,5 @@
 //ex 1
 function recebeListas(A, B) {
-    let C
     //Conferir se listas tem exatamente 10 itens
     function confereLength(lista) {
         if (lista.length < 10 || lista.length > 10) {
@@ -16,13 +15,14 @@ function recebeListas(A, B) {
         // Conferir se todos elementos são divisiveis por 2 e 3
         function confereListaA(lista) {
             somaValor = 0
-            let retorno 
             for (let i = 0; i < lista.length; i++) {
                 if (lista[i] % 2 !== 0 || lista[i] % 3 !== 0) {
-                    retorno = 'Valores não permitidos encontrados'
+                    return 'Valores não permitidos encontrados'
                 } else {
                     somaValor++
-                    if (somaValor === 10) {
+                    while (somaValor < 10) {
+                        retorno = false
+                    } if (somaValor === 10) {
                         retorno = true
                     }
                 }
@@ -35,32 +35,23 @@ function recebeListas(A, B) {
             let retorno 
             for (let i = 0; i <lista.length; i++) {
                 if (lista[i] % 5 !== 0) {
-                    retorno = 'Valores não permitidos encontrados'
+                    return 'Valores não permitidos encontrados'
                 } else {
                     somaValor++
-                    if (somaValor === 10) {
+                    while (somaValor < 10) {
+                        retorno = false
+                    } if (somaValor === 10) {
                         retorno = true
                     }
                 }
             }
             return retorno
         }
-        console.log(confereListaA(A))
-        console.log(confereListaB(B))
-
-        if (confereListaA(A) === true && confereListaB(B) === true) {
-            C = [...A, ...B]
-            return C
-        } else {
-            return 'Não foi possível juntar as duas listas'
-        }
     } else {
-        return 'Listas com valores ou comprimento não permitidos'
+        console.log('Listas com valores não permitidos')
     }
-    // console.log(confereListaA(A))
-    // console.log(confereListaB(B))
-    // Juntar as duas arrays
-
+    console.log(confereListaA(A))
+    console.log(confereListaA(B))
 
 }
 lista1 = [6,12,18,24,30,36,42,48,54,60]
