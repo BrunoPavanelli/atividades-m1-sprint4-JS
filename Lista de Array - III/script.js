@@ -30,3 +30,33 @@ function montaLista(lista) {
 }
 arr_2 = [1,'123456778',2,3,4,5,'o rato roeu a ropa do rei de roma',6,7,8,9,10,11,12,'acorda pedrinho',13,14]
 console.log(montaLista(arr_2))
+
+//ex 2
+function recebeLista(A) {
+    let B = []
+    if (A.length < 8 || A.length > 8) {
+        return 'Lista Inválida'
+    } else {
+        for (let i = 0; i < A.length; i++) {
+            B[i] === B.push(A[i] * 3)
+        }
+    }
+    return B
+}
+let lista = [3,3,3,3,3,3,3,3]
+console.log(recebeLista(lista))
+
+//ex 3
+function recebeMatriz(A) {
+    let B = []
+    if (A.length < 15 || A.length > 15) {
+        return 'Lista Inválida'
+    } else {
+        for (let i = 0; i < A.length; i++) {
+            B[i] === B.push(A[i] ** 2)
+        }
+    }
+    return B
+}
+let matriz = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+console.log(recebeMatriz(matriz))
