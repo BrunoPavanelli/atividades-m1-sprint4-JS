@@ -1,0 +1,21 @@
+//ex 1
+function montaLista(lista) {
+    arr = []
+    while (arr.length < 10) {
+        let elementos = lista
+        for (let i = 0; i < lista.length; i++) {
+            if (typeof lista[i] === 'string') {
+                if (elementos.length <= 7){
+                    arr.push(elementos)
+                } else {
+                    console.log(`Não foi possível inserir este valor`)
+                }
+            } else {
+                arr.push(Number(elementos))
+            }
+        }
+    }
+    return(`Elemento inserido com sucesso, a lista agora é: ${arr}`)
+}
+
+console.log(montaLista(1,2,3,4,5,6,7,8,9))

@@ -1,0 +1,21 @@
+//ex 1
+function montaLista(lista) {
+    arr = []
+    let combinado 
+    while (arr.length < 10) {
+        for (let i = 0; i < lista.length; i++) {
+            if (typeof lista[i] === 'string') {
+                if (lista[i].length <= 7){
+                    combinado = [...arr, ...lista]
+                } else {
+                    console.log(`Não foi possível inserir este valor`)
+                }
+            } else {
+                combinado = [...arr, ...lista]
+            }
+        }
+    }
+    return(`Elemento inserido com sucesso, a lista agora é: ${combinado}`)
+}
+arr_2 = [1,2,3,4,5,6,7,8,9]
+console.log(montaLista(arr_2))
