@@ -38,7 +38,7 @@ function recebeLista(A) {
         return 'Lista Inválida'
     } else {
         for (let i = 0; i < A.length; i++) {
-            B[i] === B.push(A[i] * 3)
+           B.push(A[i] * 3)
         }
     }
     return B
@@ -53,7 +53,7 @@ function recebeMatriz(A) {
         return 'Lista Inválida'
     } else {
         for (let i = 0; i < A.length; i++) {
-            B[i] === B.push(A[i] ** 2)
+            B.push(A[i] ** 2)
         }
     }
     return B
